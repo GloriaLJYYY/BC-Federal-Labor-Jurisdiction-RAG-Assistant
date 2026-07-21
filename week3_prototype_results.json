@@ -1,0 +1,32 @@
+[
+  {
+    "id": "BC_PAID_SICK_LEAVE",
+    "question": "I work in a retail store in Vancouver. How many paid sick days am I entitled to?",
+    "answer": "Based on the provided context, which pertains to BC provincial employment standards, full-time, part-time, and casual employees are entitled to 5 paid sick days after 90 days of continuous employment. This information is derived from Section 49.1(3) in Document ID '0'.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_week2_test\\bc\\bc_employment_guide_illness_injury_leave.docx",
+      "D:\\AI_Project\\data_corpus_week2_test\\bc\\bc_employment_guide_illness_injury_leave.docx"
+    ],
+    "status": "success"
+  },
+  {
+    "id": "FEDERAL_BANKING",
+    "question": "I work as a bank teller at RBC in Vancouver. Which jurisdiction and minimum wage rules apply to me?",
+    "answer": "For a federally regulated worker like you, who works as a bank teller at RBC in British Columbia, the applicable jurisdiction is Canada Federal (federally). The specific section from the retrieved context that addresses your situation is:\n\nCanada Labour Code — Minimum Wage and Age of Employment\n\nMinimum wage\n\n178 (1) Subject to subsections (2) to (5), an employer shall pay to each employee a wage at a minimum hourly rate that is not less than the rate that is determined in accordance with section 178.1.\n\nProvince of employment\n\n(2) If the minimum hourly rate that is fixed, from time\ntime, by or under an Act of the legislature of the province where the employee is usually employed and that is generally applicable regardless of occupation, status or work experience is higher than the minimum hourly rate fixed under subsection (1), an employer shall pay to each employee a wage at a rate that is\n\n(a) if the wages of the employee are paid on an hourly basis, not less than that higher minimum hourly rate; or\n\n(b) in any other case, not less than the minimum hourly rate fixed under subsection (1).\n\nIn this context, as you work for RBC, which is federally regulated, your employment standards would be governed by the Canada Labour Code.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_week2_test\\federal\\Federal_12_Minimum_Wage_Young_Workers_Breaks_and_Equal_Wages.docx",
+      "D:\\AI_Project\\data_corpus_week2_test\\federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx"
+    ],
+    "status": "success"
+  },
+  {
+    "id": "CROSS_JURISDICTION_REFUSAL",
+    "question": "I work at a local restaurant in Vancouver. Can I use the Canada Labour Code paid leave rules?",
+    "answer": "I cannot find a verified parameter for this specific jurisdiction layout within the official guides.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_week2_test\\federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+      "D:\\AI_Project\\data_corpus_week2_test\\federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx"
+    ],
+    "status": "success"
+  }
+]
