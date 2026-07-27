@@ -45,7 +45,7 @@ BC-Federal-Labor-RAG-Assistant/
 │
 ├── BC Federal Labor Jurisdiction Engine - EVALUATION Chatflow.json
 ├── Question Bank - Evaluation Spreadsheet.xlsx
-├── Flowise Setup Guide.docx
+├── Flowise Setup Guide(Updated).docx
 │
 ├── week4_outputs_official_bank/
 │   ├── evaluation_run_results.json
