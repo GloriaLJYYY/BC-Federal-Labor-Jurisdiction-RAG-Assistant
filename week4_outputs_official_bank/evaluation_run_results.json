@@ -1,0 +1,2171 @@
+[
+  {
+    "id": "F‑01",
+    "user_query": "What is the minimum wage for a Scotiabank teller in Burnaby?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Banks are federally regulated; federal minimum wage applies.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 84.05,
+    "answer": "No, the information provided does not specify the minimum wage for a Scotiabank teller in Burnaby or any other location. The context given covers general employment standards and minimum wages but does not provide specific rates for different industries or locations within British Columbia.\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_minimum_wage.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 53
+            }
+          }
+        },
+        "content_preview": "When employment ends, employers must pay employees their final wages.\n\nMinimum wage\n\nAll employees must be paid at least minimum wage. The minimum wage in British Columbia is $18.25 per hour.\n\nMinimum daily pay\n\nAn employee who reports for work must be paid for at least 2 hours, even if they work less than 2 hours.\n\nKeeping records\n\nEmployers must keep a record of the hours worked by each employee and provide a pay statement every payday.\n\nTips and gratuities\n\nEmployers can collect tips and dist"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_minimum_wage.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_minimum_wage.docx",
+          "loc": {
+            "lines": {
+              "from": 21,
+              "to": 39
+            }
+          }
+        },
+        "content_preview": "No agreement was reached between the parties on a wage rate\n\nThe wage rate agreed to between the parties can't be determined\n\nSubsection (1)\n\nThe baseline for the minimum wage calculation is $16.75. Each year, this baseline is adjusted according to section 16.2, Annual adjustment of minimum wage.\n\nAs of June 1, 2026, the current minimum wage in British Columbia is $18.25. This is an increase from the rate of $17.85 that was in effect from June 1, 2025 until May 31, 2026.\n\nJune 1, 2026 – $18.25 p"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 0,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "expected_jurisdiction_not_in_sources"
+    ],
+    "error": ""
+  },
+  {
+    "id": "F‑02",
+    "user_query": "How many paid sick days does a Rogers call‑centre employee get?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC: Up to 10 paid sick days, accrued monthly after 30 days.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 34.87,
+    "answer": "Generally, yes, a Rogers call-center employee is entitled to 3 days of unpaid sick leave under the Employment Standards Act (ESA).\n\nSource: BC Employment Standards Act, Section [not provided in retrieved context]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 85,
+              "to": 105
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nIndividuals who require care and are considered close relatives (whether or not they are related by blood, adoption, marriage or common law partnership)\n\nSubsection (2)\n\nThis subsection lists the various circumstances in which an employee is entitled to take a leave from work.\n\nthe employee has:\n\nbeen diagnosed with COVID-19; and\n\nis acting under instructions from their doctor, a nurse or other medical health officer.\n\nthe employee is in quarantine or self-isolation in accordance wit"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 37
+            }
+          }
+        },
+        "content_preview": "You need to pay your employees their regular wages for these days. They do not have to be taken consecutively.\n\nEmployees are also entitled to 3 days of unpaid sick leave.\n\nEligibility\n\nThe paid sick leave entitlement applies to all employees covered by the\n\nEmployment Standards Act (ESA), including part-time, temporary or casual employees.\n\nThe ESA doesn't cover certain types of employees, including:\n\nFederally-regulated sectors\n\nSelf-employed workers or independent contractors\n\nEmployees in pr"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 0,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "expected_jurisdiction_not_in_sources"
+    ],
+    "error": ""
+  },
+  {
+    "id": "F‑03",
+    "user_query": "Does an Air Canada flight attendant earn overtime after 8 hours?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC overtime: 1.5× after exceeding standard weekly hours.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 28.21,
+    "answer": "Yes, an Air Canada flight attendant earns overtime after working over 8 hours in a day.\n\nSource: Canada Labour Code, Section [not provided]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 19
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Hours of Work, Overtime and Flexible Work\n\nTopic coverage: Part III interpretation and application; standard and maximum hours, overtime, scheduling, modified schedules, permits, emergencies, and flexible-work requests.\n\nPART IIIStandard Hours, Wages, Vacations and Holidays\n\nInterpretation\n\nDefinitions\n\n166 In this Part,\n\ncollective agreement means an agreement in writing containing terms or conditions of employment of employees, including provisions with reference to rates "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+          "loc": {
+            "lines": {
+              "from": 101,
+              "to": 111
+            }
+          }
+        },
+        "content_preview": "Employees paid by salary\n\nIf an employee is paid by a weekly, monthly or yearly salary, overtime is payable to that employee if they work over 8 hours in a day or over 40 hours in a week. The regular wage should be calculated as set out in section 1 of the Act. For any hours worked over 8 in a day or over 40 in a week, overtime is owed at one and a half times the regular wage. For any hours worked over 12 in a day, overtime is owed at two times the regular wage. An employee cannot agree (even wi"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑04",
+    "user_query": "Can a Bell technician refuse unsafe work?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC Part II: Right to refuse dangerous work.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 27.99,
+    "answer": "Yes, if the refusal puts the life, health or safety of another person directly in danger; or if the danger referred to in subsection (1) is a normal condition of employment.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_06_Labour_Relations_Prohibitions_Complaints_and_Enforcement.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_08_OHS_Complaints_Work_Refusal_and_Reprisals.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_06_Labour_Relations_Prohibitions_Complaints_and_Enforcement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_06_Labour_Relations_Prohibitions_Complaints_and_Enforcement.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 27
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Labour Relations Prohibitions, Complaints and Enforcement\n\nTopic coverage: Unfair labour practices, complaints, Board remedies, offences, prosecution, general provisions, and provincial-law application.\n\nDIVISION VIProhibitions and Enforcement\n\nStrikes and Lockouts\n\nDefinitions\n\n88 In this Division,\n\nemployer includes an employers’ organization; (employeur)\n\ntrade union includes a council of trade unions. (syndicat)\n\nStrikes and lockouts prohibited during term of collective "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_08_OHS_Complaints_Work_Refusal_and_Reprisals.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_08_OHS_Complaints_Work_Refusal_and_Reprisals.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 11
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — OHS Complaints, Work Refusal and Reprisals\n\nTopic coverage: Internal complaint resolution, danger-based work refusal, investigations, directions, appeals, pregnancy/nursing protections, and reprisal complaints.\n\nInternal Complaint Resolution Process\n\nComplaint to supervisor\n\n127.1 (1) An employee who believes on reasonable grounds that there has been a contravention of this Part or that there is likely to be an accident, injury or illness arising out of, linked with or occur"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑05",
+    "user_query": "How long is maternity leave for a WestJet employee?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "17 weeks maternity + up to 63 weeks parental.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 28.28,
+    "answer": "An employee at WestJet can be entitled to up to 17 weeks of leave without pay under section 50(1) of the Canada Labour Code.\n\nSource: Canada Labour Code, Section [not applicable as no specific section number is provided]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_maternity_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 13
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Medical, Personal, Family and Other Leaves\n\nTopic coverage: Maternity-related reassignment and leave, maternity/parental and other protected leaves, bereavement, medical leave, work-related illness and injury, and reserve-force leave.\n\nDIVISION VIIMaternity-related Reassignment and Leave and Other Leaves\n\nMaternity-related Reassignment and Leave\n\nReassignment and job modification\n\n204 (1) An employee who is pregnant or nursing may, during the period from the beginning of the"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_maternity_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_maternity_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 35,
+              "to": 51
+            }
+          }
+        },
+        "content_preview": "Policy Interpretation\n\nThis leave is granted to pregnant employees. Maternity leave is available to all pregnant employees, regardless of the length of their employment. The leave is without pay.\n\nIf the employee gives birth after the expected due date, the length of the leave is not extended.\n\nIn addition to the leave granted under s.50(1), (1.1), or (2), an employee can apply for an additional six weeks’ leave under s.50(3), where appropriate.\n\nThe employee may request, and the employer may gr"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑06",
+    "user_query": "Does a TD Bank employee get holiday pay for working on Canada Day?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC: Paid statutory holiday rules apply.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 32.06,
+    "answer": "Generally, yes, TD Bank employees are entitled to and shall be granted a holiday with pay on Canada Day if it falls on a non-working day.\n\nSource: R.S., c. L-1, s. 48",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 19
+            }
+          }
+        },
+        "content_preview": "Getting paid for work\n\nLast updated on May 31, 2026\n\nEmployees must be paid for the work they do. They should get at least minimum wage for hours worked in each pay period.\n\nOn this page\n\nEmployees must be paid twice per month What you can do\n\nEmployees must be paid twice per month\n\nPay periods cannot be longer than 16 days. All money earned, including overtime and statutory holiday pay, must be paid within 8 days after the end of the pay period. Annual vacation pay and wages in an employee’s ti"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+          "loc": {
+            "lines": {
+              "from": 273,
+              "to": 289
+            }
+          }
+        },
+        "content_preview": "(b) be given a holiday with pay at some other time, either by adding it to their annual vacation or by granting it at a time convenient to both the employee and the employer; or\n\n(c) be paid holiday pay for the first day on which they do not work after that day, if a collective agreement that is binding on the employer and the employee so provides.\n\n(3) [Repealed, 2018, c. 27, s. 459]\n\n198 [Repealed, 2012, c. 31, s. 221]\n\nHoliday work for managers, etc.\n\n199 Despite section 197, an employee excl"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑07",
+    "user_query": "Can a CN Rail worker file a break complaint with BC ESA?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Interprovincial rail is federal; complaints go to Labour Program.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 24.78,
+    "answer": "I cannot find a verified parameter for this specific jurisdiction layout within the official guides.\n\nSource: I cannot find a verified parameter for this specific jurisdiction layout within the official guides.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 27
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Labour Board and Basic Freedoms\n\nTopic coverage: Employee and employer freedoms; Canada Industrial Relations Board organization, powers, procedure, review, and enforcement.\n\nDIVISION IBasic Freedoms\n\nEmployee freedoms\n\n8 (1) Every employee is free to join the trade union of their choice and to participate in its lawful activities.\n\nEmployer freedoms\n\n(2) Every employer is free to join the employers’ organization of their choice and to participate in its lawful activities.\n\nD"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Wages, Expenses, Employee Protections and Genetic Testing\n\nTopic coverage: Garnishment protection, work-related expenses, long-term disability plans, reprisal complaints, payment of wages, and genetic-testing protections.\n\nDIVISION XIIGarnishment\n\nProhibition\n\n238 No employer shall dismiss, suspend, lay off, demote or discipline an employee on the ground that garnishment proceedings may be or have been taken with respect to the employee.\n\nDIVISION XII.1Reimbursement of Work-"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑08",
+    "user_query": "What is the overtime rate for a FedEx interprovincial driver?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC: 1.5× overtime after standard weekly limits.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 23.17,
+    "answer": "I cannot find a verified parameter for this specific jurisdiction layout within the official guides.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 19
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Hours of Work, Overtime and Flexible Work\n\nTopic coverage: Part III interpretation and application; standard and maximum hours, overtime, scheduling, modified schedules, permits, emergencies, and flexible-work requests.\n\nPART IIIStandard Hours, Wages, Vacations and Holidays\n\nInterpretation\n\nDefinitions\n\n166 In this Part,\n\ncollective agreement means an agreement in writing containing terms or conditions of employment of employees, including provisions with reference to rates "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+          "loc": {
+            "lines": {
+              "from": 101,
+              "to": 111
+            }
+          }
+        },
+        "content_preview": "Employees paid by salary\n\nIf an employee is paid by a weekly, monthly or yearly salary, overtime is payable to that employee if they work over 8 hours in a day or over 40 hours in a week. The regular wage should be calculated as set out in section 1 of the Act. For any hours worked over 8 in a day or over 40 in a week, overtime is owed at one and a half times the regular wage. For any hours worked over 12 in a day, overtime is owed at two times the regular wage. An employee cannot agree (even wi"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑09",
+    "user_query": "Does a Vancouver‑based airline mechanic qualify for federal bereavement leave?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC: Up to 10 days, first 3 paid after 3 months.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 24.6,
+    "answer": "No.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_bereavement_leaves.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 85,
+              "to": 105
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nIndividuals who require care and are considered close relatives (whether or not they are related by blood, adoption, marriage or common law partnership)\n\nSubsection (2)\n\nThis subsection lists the various circumstances in which an employee is entitled to take a leave from work.\n\nthe employee has:\n\nbeen diagnosed with COVID-19; and\n\nis acting under instructions from their doctor, a nurse or other medical health officer.\n\nthe employee is in quarantine or self-isolation in accordance wit"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_bereavement_leaves.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_bereavement_leaves.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Bereavement Leave\n\nLast updated on April 1, 2021\n\nSummary\n\nThis section explains when an employee qualifies for bereavement leave and the length of the leave. \n\nText of Legislation\n\n53. An employee is entitled to up to 3 days of unpaid leave on the death of a member of the employee's immediate family. \n\nPolicy Interpretation\n\nAn employee is entitled to an unpaid leave of absence of up to 3 days to grieve, attend a funeral, and take care of issues relating to the death of a member of their “immed"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 0,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "expected_jurisdiction_not_in_sources"
+    ],
+    "error": ""
+  },
+  {
+    "id": "F‑10",
+    "user_query": "Can a bank teller use BC ESA rules for vacation pay?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Banks follow CLC vacation rules (2–3 weeks based on tenure).",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 35.0,
+    "answer": "Generally, no.\n\nThe retrieved context indicates that the Employment Standards Act (ESA) applies to most workplaces and sets standards for payment, compensation, and working conditions in British Columbia. However, it also mentions that certain types of employees are excluded from ESA coverage, including federally-regulated sectors such as banks. Therefore, a bank teller would not be covered by BC ESA rules for vacation pay.\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_how_wages_are_paid.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_how_wages_are_paid.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_how_wages_are_paid.docx",
+          "loc": {
+            "lines": {
+              "from": 25,
+              "to": 31
+            }
+          }
+        },
+        "content_preview": "An employer may directly deposit wages to an employee's account if the employee provides the employer with written authorization to do so, or if the collective agreement provides for direct deposit.\n\nFarm labour contractors are excluded from this section of the Act. Section 40.2 of the Employment Standards Regulation requires farm labour contractors to pay wages in Canadian currency by way of direct deposit to the credit of a farm worker's account in a savings institution.\n\nEmployees covered by "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Wages, Expenses, Employee Protections and Genetic Testing\n\nTopic coverage: Garnishment protection, work-related expenses, long-term disability plans, reprisal complaints, payment of wages, and genetic-testing protections.\n\nDIVISION XIIGarnishment\n\nProhibition\n\n238 No employer shall dismiss, suspend, lay off, demote or discipline an employee on the ground that garnishment proceedings may be or have been taken with respect to the employee.\n\nDIVISION XII.1Reimbursement of Work-"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑11",
+    "user_query": "How many hours can a long‑haul truck driver work before overtime?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Federally regulated transport; CLC overtime rules apply.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 33.99,
+    "answer": "A long-haul truck driver cannot work more than 8 hours in a day or 40 hours in a week without being paid overtime, which is one and a half times their regular wage for any hours worked over these limits.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 193,
+              "to": 203
+            }
+          }
+        },
+        "content_preview": "Maximum hours of work\n\n171 (1) An employee may be employed in excess of the standard hours of work but, subject to sections 172, 176 and 177, and to any regulations made pursuant to section 175, the total hours that may be worked by any employee in any week shall not exceed forty-eight hours in a week or such fewer total number of hours as may be prescribed by the regulations as maximum working hours in the industrial establishment in or in connection with the operation of which the employee is "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 205,
+              "to": 221
+            }
+          }
+        },
+        "content_preview": "(a) the average hours of work for a period of two or more weeks does not exceed forty-eight hours a week; and\n\n(b) the schedule, or its modification or cancellation, is agreed to in writing by the employer and the trade union.\n\nMaximum hours of work\n\n(2) Subject to subsection (3), an employer may, in respect of one or more employees not subject to a collective agreement, establish, modify or cancel a work schedule under which the hours exceed the maximum set out in section 171 or in regulations "
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑12",
+    "user_query": "Does a postal worker get federal family violence leave?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC: Up to 10 days, first 5 paid.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 31.46,
+    "answer": "Yes, every employee who is a victim of family violence or who is the parent of a child who is a victim of family violence is entitled to and shall be granted a leave of absence from employment of up to 10 days in every calendar year.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 85,
+              "to": 105
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nIndividuals who require care and are considered close relatives (whether or not they are related by blood, adoption, marriage or common law partnership)\n\nSubsection (2)\n\nThis subsection lists the various circumstances in which an employee is entitled to take a leave from work.\n\nthe employee has:\n\nbeen diagnosed with COVID-19; and\n\nis acting under instructions from their doctor, a nurse or other medical health officer.\n\nthe employee is in quarantine or self-isolation in accordance wit"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+          "loc": {
+            "lines": {
+              "from": 403,
+              "to": 425
+            }
+          }
+        },
+        "content_preview": "(c) specifying the persons who are the employee’s family members.\n\nLeave for Victims of Family Violence\n\nDefinitions\n\n206.7 (1) The following definitions apply in subsection (2).\n\nchild  means a person who is under 18 years of age. (enfant)\n\nparent has the same meaning as in subsection 206.5(1) but does not include a curator to the person. (parent)\n\nLeave — 10 days\n\n(2) Every employee who is a victim of family violence or who is the parent of a child who is a victim of family violence is entitle"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑13",
+    "user_query": "Can a telecom worker at Bell request federal compassionate care leave?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC: Up to 28 weeks unpaid compassionate care leave.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 29.2,
+    "answer": "Yes, all eligible employees are entitled to up to 27 weeks of unpaid leave within a period of 52 weeks for caring for a gravely ill family member under the Canada Labour Code.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_compassionate_care_leave.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_compassionate_care_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_compassionate_care_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 35,
+              "to": 41
+            }
+          }
+        },
+        "content_preview": "Policy Interpretation\n\nAll employees are entitled to up to 27 weeks of unpaid leave within a period of 52 weeks to care for a gravely ill family member. The right to compassionate care leave under this Part is available to all eligible employees regardless of how long they have been employed. The leave is a statutory entitlement, not something that may or may not be granted at the discretion of the employer.\n\nAn employee must, as soon as practicable, provide the employer with a certificate from "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 85,
+              "to": 105
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nIndividuals who require care and are considered close relatives (whether or not they are related by blood, adoption, marriage or common law partnership)\n\nSubsection (2)\n\nThis subsection lists the various circumstances in which an employee is entitled to take a leave from work.\n\nthe employee has:\n\nbeen diagnosed with COVID-19; and\n\nis acting under instructions from their doctor, a nurse or other medical health officer.\n\nthe employee is in quarantine or self-isolation in accordance wit"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 0,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "expected_jurisdiction_not_in_sources"
+    ],
+    "error": ""
+  },
+  {
+    "id": "F‑14",
+    "user_query": "What rest period must an Air Canada pilot receive between shifts?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Aviation is federal; CLC + Transport Canada duty‑time rules apply.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 39.16,
+    "answer": "Generally, yes, under the provisions for continuous operation of VDTs in the BC Public Service, pilots who are required to operate VDTs continuously for three and one-half consecutive hours or longer but less than their full shift should be reassigned to alternate work duties for a 10-minute break. However, since this context is specific to the BC Public Service and not Air Canada pilots, we cannot provide an exact rest period for Air Canada pilots from the given information.\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_08_Occupational_Health_Safety_and_Mental_Health.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_08_Occupational_Health_Safety_and_Mental_Health.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_08_Occupational_Health_Safety_and_Mental_Health.docx",
+          "loc": {
+            "lines": {
+              "from": 119,
+              "to": 133
+            }
+          }
+        },
+        "content_preview": "(a) Employees who are required to operate VDTs on a continuous basis shall be entitled to two additional 10-minute rest breaks per workday to be scheduled by agreement at the local level. \n\n\n\n(b) Employees required to continuously operate VDTs for three and one-half consecutive hours or longer but less than their full shift shall be reassigned to alternate work duties for one 10-minute period. Where alternate work duties are not available, employees shall receive a 10-minute rest break. \n\n\n\nNo o"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 151,
+              "to": 165
+            }
+          }
+        },
+        "content_preview": "Rest period\n\n169.2 (1) Every employee is entitled to and shall be granted a rest period of at least eight consecutive hours between work periods or shifts.\n\nException\n\n(2) Despite subsection (1), an employer may require that an employee work additional hours to their scheduled work periods or shifts which would result in them having a rest period of fewer than eight consecutive hours between their work periods or shifts if it is necessary for the employee to work in order to deal with a situatio"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "F‑15",
+    "user_query": "Does a bank employee qualify for federal personal leave?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "CLC: 5 days personal leave, first 3 paid after 3 months.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 28.93,
+    "answer": "Generally, no. The context provided does not specify personal leave entitlements under the Canada Labour Code. Personal leave is typically covered by provincial standards in BC and other provinces.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 85,
+              "to": 105
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nIndividuals who require care and are considered close relatives (whether or not they are related by blood, adoption, marriage or common law partnership)\n\nSubsection (2)\n\nThis subsection lists the various circumstances in which an employee is entitled to take a leave from work.\n\nthe employee has:\n\nbeen diagnosed with COVID-19; and\n\nis acting under instructions from their doctor, a nurse or other medical health officer.\n\nthe employee is in quarantine or self-isolation in accordance wit"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 31,
+              "to": 51
+            }
+          }
+        },
+        "content_preview": "an order of the provincial health officer,\n\nan order made under the Quarantine Act (Canada),\n\nguidelines of the British Columbia Centre for Disease Control, or\n\nguidelines of the Public Health Agency of Canada;\n\nthe employer, due to the employer's concern about the employee'sexposure to others, has directed the employee not to work;\n\nthe employee is providing care to an eligible person, includingbecause of the closure of a school or daycare or similar facility;\n\nthe employee is outside the provi"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 0,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "expected_jurisdiction_not_in_sources"
+    ],
+    "error": ""
+  },
+  {
+    "id": "BC‑01",
+    "user_query": "What is the minimum wage for a retail cashier in Vancouver?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "BC minimum wage applies (e.g., $17.40/hr in 2024).",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 25.44,
+    "answer": "The minimum wage for a retail cashier in Vancouver is $18.25 per hour.\n\nSource: BC Employment Standards Act, Section [not provided]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_annual_adjustment_of_minimum_wage.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_12_Minimum_Wage_Young_Workers_Breaks_and_Equal_Wages.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_annual_adjustment_of_minimum_wage.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_annual_adjustment_of_minimum_wage.docx",
+          "loc": {
+            "lines": {
+              "from": 49,
+              "to": 63
+            }
+          }
+        },
+        "content_preview": "Employers must pay an employee at least the agreed-upon rate of pay. This rate of pay must meet or exceed the minimum wage rates as set out in this Act.\n\nThe minimum wage rate established in this Act will be the wage rate enforced by the director if\n\nNo agreement was reached between the parties on a wage rate\n\nThe wage rate agreed to between the parties can't be determined\n\nSubsection (1)\n\nThe All-items Consumer Price Index for British Columbia measures the changes in prices as experienced by co"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_12_Minimum_Wage_Young_Workers_Breaks_and_Equal_Wages.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_12_Minimum_Wage_Young_Workers_Breaks_and_Equal_Wages.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 15
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Minimum Wage, Young Workers, Breaks and Equal Wages\n\nTopic coverage: Minimum wages, age of employment, medical and nursing breaks, and equal wages.\n\nDIVISION IIMinimum Wage and Age of Employment\n\nMinimum wage\n\n178 (1) Subject to subsections (2) to (5), an employer shall pay to each employee a wage at a minimum hourly rate that is not less than the rate that is determined in accordance with section 178.1.\n\nProvince of employment\n\n(2) If the minimum hourly rate that is fixed, "
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑02",
+    "user_query": "How many paid sick days does a restaurant server get in BC?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "BC ESA: 5 paid sick days after 90 days.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 28.29,
+    "answer": "A restaurant server in BC is entitled to 5 paid sick days per year under the BC Employment Standards Act.\n\nSource: BC Employment Standards Act, Section [not explicitly stated]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 37
+            }
+          }
+        },
+        "content_preview": "You need to pay your employees their regular wages for these days. They do not have to be taken consecutively.\n\nEmployees are also entitled to 3 days of unpaid sick leave.\n\nEligibility\n\nThe paid sick leave entitlement applies to all employees covered by the\n\nEmployment Standards Act (ESA), including part-time, temporary or casual employees.\n\nThe ESA doesn't cover certain types of employees, including:\n\nFederally-regulated sectors\n\nSelf-employed workers or independent contractors\n\nEmployees in pr"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 31,
+              "to": 51
+            }
+          }
+        },
+        "content_preview": "an order of the provincial health officer,\n\nan order made under the Quarantine Act (Canada),\n\nguidelines of the British Columbia Centre for Disease Control, or\n\nguidelines of the Public Health Agency of Canada;\n\nthe employer, due to the employer's concern about the employee'sexposure to others, has directed the employee not to work;\n\nthe employee is providing care to an eligible person, includingbecause of the closure of a school or daycare or similar facility;\n\nthe employee is outside the provi"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑03",
+    "user_query": "Does a Vancouver tech worker earn overtime after 8 hours?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "1.5× after 8 hrs/day; 2× after 12 hrs/day.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 33.77,
+    "answer": "Generally, yes. If an employee works over 8 hours in a day or over 40 hours in a week, they are entitled to receive overtime pay at one and a half times their regular wage.\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 19
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Hours of Work, Overtime and Flexible Work\n\nTopic coverage: Part III interpretation and application; standard and maximum hours, overtime, scheduling, modified schedules, permits, emergencies, and flexible-work requests.\n\nPART IIIStandard Hours, Wages, Vacations and Holidays\n\nInterpretation\n\nDefinitions\n\n166 In this Part,\n\ncollective agreement means an agreement in writing containing terms or conditions of employment of employees, including provisions with reference to rates "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+          "loc": {
+            "lines": {
+              "from": 101,
+              "to": 111
+            }
+          }
+        },
+        "content_preview": "Employees paid by salary\n\nIf an employee is paid by a weekly, monthly or yearly salary, overtime is payable to that employee if they work over 8 hours in a day or over 40 hours in a week. The regular wage should be calculated as set out in section 1 of the Act. For any hours worked over 8 in a day or over 40 in a week, overtime is owed at one and a half times the regular wage. For any hours worked over 12 in a day, overtime is owed at two times the regular wage. An employee cannot agree (even wi"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑04",
+    "user_query": "How much vacation pay does a retail worker get after 1 year?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "4% vacation pay (2 weeks).",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 30.71,
+    "answer": "An employee is entitled to two weeks' vacation after completion of their first year of employment, with the vacation pay calculated as 4% of total wages earned in the first year.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_vacation_pay.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Vacation, General Holidays and Multi-employer Employment\n\nTopic coverage: Annual vacations, vacation pay, general holidays, holiday pay, and multi-employer employment.\n\nDIVISION IVAnnual Vacations\n\nDefinitions\n\n183 In this Division,\n\nvacation pay means the amount an employee is entitled to under section 184.01; (indemnité de congé annuel)\n\nyear of employment means continuous employment of an employee by one employer\n\n(a) for a period of twelve consecutive months beginning wi"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_vacation_pay.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_vacation_pay.docx",
+          "loc": {
+            "lines": {
+              "from": 45,
+              "to": 49
+            }
+          }
+        },
+        "content_preview": "Vacation Pay\n\nAn employee is entitled to two weeks' vacation after completion of their first year of employment. The vacation time is to be taken during the second year of employment, with the vacation pay calculated as 4% of total wages earned in the first year. Paid vacation pay becomes part of total wages for the year it is paid. Vacation pay in subsequent years is based on 4% of the total wages in the previous year. After completion of five years of employment, the employee becomes entitled "
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑05",
+    "user_query": "Can a Burnaby office worker refuse unsafe work?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "WorkSafeBC: Right to refuse unsafe work.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 38.83,
+    "answer": "Generally, yes, an employee may refuse to use or operate a machine or thing, to work in a place, or to perform an activity if they have reasonable cause to believe that it constitutes a danger to themselves or another employee. This right is outlined in section 128(1) of the BC Employment Standards Act.\n\nSource: BC Employment Standards Act, Section [not provided]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_07_Occupational_Health_and_Safety_Duties.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_09_OHS_Committees_Representatives_and_Coal_Mining.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_07_Occupational_Health_and_Safety_Duties.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_07_Occupational_Health_and_Safety_Duties.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 23
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Occupational Health and Safety Duties\n\nTopic coverage: Part II interpretation and application; employer and employee duties; hazards, hazardous substances, coal mines, and accident scenes.\n\nPART IIOccupational Health and Safety\n\nInterpretation\n\nDefinitions\n\n122 (1) In this Part,\n\nappeals officer[Repealed, 2017, c. 20, s. 338]\n\nBoard[Repealed, 2017, c. 20, s. 338]\n\ncollective agreement has the same meaning as in section 166; (convention collective)\n\ndanger means any hazard, c"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_09_OHS_Committees_Representatives_and_Coal_Mining.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_09_OHS_Committees_Representatives_and_Coal_Mining.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — OHS Committees, Representatives and Coal Mining\n\nTopic coverage: Policy committees, workplace committees, health and safety representatives, and the Coal Mining Safety Commission.\n\nPolicy Health and Safety Committees\n\nEstablishment mandatory\n\n134.1 (1) For the purposes of addressing health and safety matters that apply to the work, undertaking or business of an employer, every employer who normally employs directly three hundred or more employees shall establish a policy hea"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 0,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "expected_jurisdiction_not_in_sources"
+    ],
+    "error": ""
+  },
+  {
+    "id": "BC‑06",
+    "user_query": "Is a part‑time barista entitled to statutory holiday pay?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Must work 15 of previous 30 days.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 24.69,
+    "answer": "Generally, no.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_if_employee_is_required_to_work_on_statutory_holiday.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_entitlement_to_statutory_holiday.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_if_employee_is_required_to_work_on_statutory_holiday.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_if_employee_is_required_to_work_on_statutory_holiday.docx",
+          "loc": {
+            "lines": {
+              "from": 67,
+              "to": 77
+            }
+          }
+        },
+        "content_preview": "Example\n\nAnother night shift gas attendant commences their normal 8-hour shift at\n\n10:00 pm on June 30. The shift is scheduled to end at 7:00 am on July 1 (Canada Day). They do not work at any other time on July 1. This scheduled shift includes a one-hour unpaid meal break. In accordance with the definition of \"day\" in s.1 of the Act, the employee is not entitled to any statutory holiday pay for time worked on the June 30th to July 1 shift because the shift did not commence on the statutory holi"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_entitlement_to_statutory_holiday.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_entitlement_to_statutory_holiday.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 25
+            }
+          }
+        },
+        "content_preview": "Entitlement to Statutory Holiday\n\nLast updated on March 13, 2023\n\nSummary\n\nThis section identifies when an employee is eligible for statutory holiday pay for one of the “statutory holidays” named in s.1 of the Act. \n\nText of Legislation\n\n44. An employer must comply with section 45 or 46 in respect of an employee who has been employed by the employer for at least 30 calendar days before the statutory holiday and has\n\nworked or earned wages for 15 of the 30 calendar days preceding thestatutory hol"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑07",
+    "user_query": "Does a Vancouver restaurant cook get a 30‑minute meal break?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "30‑minute unpaid break after 5 hours.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 30.63,
+    "answer": "Yes, an employee like Theresa is entitled to a continuous period of at least one-half hour during which she can eat, which is considered a meal break.\n\nSource: BC Employment Standards Act, Section [not provided]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_meal_breaks.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_meal_breaks.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_meal_breaks.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Meal Breaks\n\nSummary\n\nThis section specifies the maximum time an employee can work without a meal break, the minimum length of the break and under what circumstances the break must be paid. \n\nText of Legislation\n\n32. (1) An employer must ensure\n\nthat no employee works more than 5 consecutive hours without a meal break, and\n\nthat each meal break lasts at least 1/2 hour.\n\n(2) An employer who requires an employee to work or be available for work during a meal break must count the meal break as time"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_meal_breaks.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_meal_breaks.docx",
+          "loc": {
+            "lines": {
+              "from": 31,
+              "to": 39
+            }
+          }
+        },
+        "content_preview": "The employer must schedule another ½-hour meal break by 3:00 pm in order that Theresa does not work more than 5 consecutive hours.\n\nSubsection (2)\n\nCertain work situations require that employees be available for work, or actually perform work, through their meal break. If an employer allows an employee to work at any time during a scheduled meal break, the employer must count the entire meal break as time worked for that day and include the time worked in payroll records as noted in s.28 of the "
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑08",
+    "user_query": "Can a retail worker be scheduled for 12 hours straight?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Allowed; overtime applies after 8 hours.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 33.11,
+    "answer": "No, an employer must ensure that each employee has at least 8 consecutive hours free from work between each shift worked. Any scheduling of 12 consecutive hours without additional pay would violate this requirement.\n\nSource: BC Employment Standards Act, Section [not provided in retrieved context]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_hours_free_from_work.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 253,
+              "to": 271
+            }
+          }
+        },
+        "content_preview": "Regulations\n\n(7) The Governor in Council may make regulations respecting the conduct of votes under this section.\n\nStatutory Instruments Act not applicable\n\n(8) The Statutory Instruments Act does not apply in respect of the written notice given by the Head to the employer under subsection (5).\n\nDuration\n\n172.2 (1) A work schedule that is established or modified under subsection 170(1) or 172(1) remains in effect for the duration of the written agreement between the employer and the trade union.\n"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_hours_free_from_work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_hours_free_from_work.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 23
+            }
+          }
+        },
+        "content_preview": "Hours Free From Work\n\nLast updated on April 1, 2021\n\nSummary\n\nThis section requires an employer to provide its employees with a minimum number of hours free from work between shifts, on a weekly and daily basis. \n\nText of Legislation\n\n36. (1) An employer must either\n\nensure that an employee has at least 32 consecutive hours free fromwork each week, or\n\npay an employee 1 1/2 times the regular wage for time worked by theemployee during the 32 hour period the employee would otherwise be entitled to"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑09",
+    "user_query": "How much notice must an employer give before terminating a cashier?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "1 week after 3 months; 2 weeks after 12 months, etc.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 26.44,
+    "answer": "Generally, no specific notice period is mandated by federal law for terminating a cashier. The Canada Labour Code does not specify such a requirement.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_15_Termination_Notice_Severance_and_Unjust_Dismissal.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_rules_about_notice.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_15_Termination_Notice_Severance_and_Unjust_Dismissal.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_15_Termination_Notice_Severance_and_Unjust_Dismissal.docx",
+          "loc": {
+            "lines": {
+              "from": 21,
+              "to": 35
+            }
+          }
+        },
+        "content_preview": "Copies of notice\n\n(2) A copy of any notice given to the Head under subsection (1) must be given immediately by the employer to the Minister of Employment and Social Development and the Canada Employment Insurance Commission and any trade union representing a redundant employee, and if any redundant employee is not represented by a trade union, a copy of that notice must be given to the employee or immediately posted by the employer in a conspicuous place within the industrial establishment in wh"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_rules_about_notice.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_rules_about_notice.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 25
+            }
+          }
+        },
+        "content_preview": "Rules About Notice\n\n\n\nSummary\n\nThis section explains when notice of termination that has been given to an employee under Part 8 has no effect. This section also explains how an employee’s conditions of employment are maintained and protected during this notice period. \n\nText of Legislation\n\n67. (1) A notice given to an employee under this Part has no effect if\n\nthe notice period coincides with a period during which the employee is on annual vacation, leave, temporary layoff, strike or lockout or"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑10",
+    "user_query": "Does a Vancouver office assistant qualify for family responsibility leave?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Up to 5 unpaid days per year.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 33.41,
+    "answer": "I cannot find a verified parameter for this specific jurisdiction layout within the official guides.\n\nSource: BC Employment Standards Act, Section [not applicable]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 85,
+              "to": 105
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nIndividuals who require care and are considered close relatives (whether or not they are related by blood, adoption, marriage or common law partnership)\n\nSubsection (2)\n\nThis subsection lists the various circumstances in which an employee is entitled to take a leave from work.\n\nthe employee has:\n\nbeen diagnosed with COVID-19; and\n\nis acting under instructions from their doctor, a nurse or other medical health officer.\n\nthe employee is in quarantine or self-isolation in accordance wit"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 37
+            }
+          }
+        },
+        "content_preview": "You need to pay your employees their regular wages for these days. They do not have to be taken consecutively.\n\nEmployees are also entitled to 3 days of unpaid sick leave.\n\nEligibility\n\nThe paid sick leave entitlement applies to all employees covered by the\n\nEmployment Standards Act (ESA), including part-time, temporary or casual employees.\n\nThe ESA doesn't cover certain types of employees, including:\n\nFederally-regulated sectors\n\nSelf-employed workers or independent contractors\n\nEmployees in pr"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑11",
+    "user_query": "Does a restaurant worker earn double‑time on statutory holidays?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "If worked, paid 1.5× plus average day’s pay if eligible.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 32.83,
+    "answer": "Generally, yes. Employees who work on statutory holidays are entitled to be paid at least time-and-a-half plus an average day's pay for any hours worked over 12 in a day.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+          "loc": {
+            "lines": {
+              "from": 101,
+              "to": 111
+            }
+          }
+        },
+        "content_preview": "Employees paid by salary\n\nIf an employee is paid by a weekly, monthly or yearly salary, overtime is payable to that employee if they work over 8 hours in a day or over 40 hours in a week. The regular wage should be calculated as set out in section 1 of the Act. For any hours worked over 8 in a day or over 40 in a week, overtime is owed at one and a half times the regular wage. For any hours worked over 12 in a day, overtime is owed at two times the regular wage. An employee cannot agree (even wi"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_getting_paid_for_work.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 53
+            }
+          }
+        },
+        "content_preview": "When employment ends, employers must pay employees their final wages.\n\nMinimum wage\n\nAll employees must be paid at least minimum wage. The minimum wage in British Columbia is $18.25 per hour.\n\nMinimum daily pay\n\nAn employee who reports for work must be paid for at least 2 hours, even if they work less than 2 hours.\n\nKeeping records\n\nEmployers must keep a record of the hours worked by each employee and provide a pay statement every payday.\n\nTips and gratuities\n\nEmployers can collect tips and dist"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑12",
+    "user_query": "Can a tech worker be forced to work split shifts?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Allowed; must have minimum 8 hours between shifts.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 35.64,
+    "answer": "No, an employer is required by law to ensure that an employee working a split shift completes the shift within 12 hours of starting work.\n\nSource: Canada Labour Code, Section [verified section number]",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_split_shifts.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_06_Labour_Relations_Prohibitions_Complaints_and_Enforcement.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_split_shifts.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_split_shifts.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Split Shifts\n\n\n\nSummary\n\nThis section details the time-frame for completion of a split shift. \n\nText of Legislation\n\n33. An employer must ensure that an employee working a split shift completes the shift within 12 hours of starting work.\n\nPolicy Interpretation\n\nThe length of a work day is limited to a maximum of 12 hours for employees who work a split shift. Work must be completed within 12 hours from the start of the shift.\n\nIf a split shift exceeds 12 hours in any day, the director may issue a"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_06_Labour_Relations_Prohibitions_Complaints_and_Enforcement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_06_Labour_Relations_Prohibitions_Complaints_and_Enforcement.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 27
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Labour Relations Prohibitions, Complaints and Enforcement\n\nTopic coverage: Unfair labour practices, complaints, Board remedies, offences, prosecution, general provisions, and provincial-law application.\n\nDIVISION VIProhibitions and Enforcement\n\nStrikes and Lockouts\n\nDefinitions\n\n88 In this Division,\n\nemployer includes an employers’ organization; (employeur)\n\ntrade union includes a council of trade unions. (syndicat)\n\nStrikes and lockouts prohibited during term of collective "
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑13",
+    "user_query": "Does a cashier get paid for reporting to work but being sent home?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Minimum 2 hours reporting pay.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 32.2,
+    "answer": "Generally, yes, if an employee is sent home due to circumstances such as stock delivery delays and they had started work, they are entitled to be paid for actual time worked.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_minimum_daily_hours.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_employers_required_to_pay_minimum_wage.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_minimum_daily_hours.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_minimum_daily_hours.docx",
+          "loc": {
+            "lines": {
+              "from": 41,
+              "to": 55
+            }
+          }
+        },
+        "content_preview": "If, in the above situation, an employee worked longer than 2 hours before being sent home, under subsection (4), they must be paid for actual hours worked.\n\nThe minimum daily pay requirements do not apply when an employee who is scheduled to work 8 hours or less is:\n\nunfit to work fails to comply with Part 2 of the Workers Compensation Act.\n\nWhen an employee has been sent home due to these circumstances, if they had started work, they are entitled to be paid for actual time worked and if they ha"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_employers_required_to_pay_minimum_wage.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_employers_required_to_pay_minimum_wage.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 27
+            }
+          }
+        },
+        "content_preview": "Subsection (1)\n\nEmployers must pay employees at least the agreed-upon rate of pay. This rate of pay must meet or exceed the minimum wage rates as set out in sections 16.1 and 16.2.\n\nThe wage rate enforced by the director is the one agreed to between the parties, either verbally or in writing. The wage rate may change during the course of employment, but cannot be reduced without giving the employee clear and adequate notice in writing. A reduction in the wage rate may be considered to be termina"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑14",
+    "user_query": "Can a server be paid a lower wage because they earn tips?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "No tip‑differential wage in BC; full minimum wage applies.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 30.59,
+    "answer": "No, an employer cannot pay a server a lower wage based solely on the fact that the server earns tips. Source: Canada Labour Code.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_12_Minimum_Wage_Young_Workers_Breaks_and_Equal_Wages.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_employers_required_to_pay_minimum_wage.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_12_Minimum_Wage_Young_Workers_Breaks_and_Equal_Wages.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_12_Minimum_Wage_Young_Workers_Breaks_and_Equal_Wages.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 15
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Minimum Wage, Young Workers, Breaks and Equal Wages\n\nTopic coverage: Minimum wages, age of employment, medical and nursing breaks, and equal wages.\n\nDIVISION IIMinimum Wage and Age of Employment\n\nMinimum wage\n\n178 (1) Subject to subsections (2) to (5), an employer shall pay to each employee a wage at a minimum hourly rate that is not less than the rate that is determined in accordance with section 178.1.\n\nProvince of employment\n\n(2) If the minimum hourly rate that is fixed, "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_employers_required_to_pay_minimum_wage.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_employers_required_to_pay_minimum_wage.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 27
+            }
+          }
+        },
+        "content_preview": "Subsection (1)\n\nEmployers must pay employees at least the agreed-upon rate of pay. This rate of pay must meet or exceed the minimum wage rates as set out in sections 16.1 and 16.2.\n\nThe wage rate enforced by the director is the one agreed to between the parties, either verbally or in writing. The wage rate may change during the course of employment, but cannot be reduced without giving the employee clear and adequate notice in writing. A reduction in the wage rate may be considered to be termina"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "BC‑15",
+    "user_query": "Does a part‑time retail worker earn vacation pay?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Yes; 4% minimum regardless of hours.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 23.9,
+    "answer": "Generally, no.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_13_Auxiliary_Part_Time_Seasonal_and_Project_Employees.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_13_Auxiliary_Part_Time_Seasonal_and_Project_Employees.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_13_Auxiliary_Part_Time_Seasonal_and_Project_Employees.docx",
+          "loc": {
+            "lines": {
+              "from": 251,
+              "to": 273
+            }
+          }
+        },
+        "content_preview": "MEMORANDUM OF AGREEMENT \n\nbetween \n\nTHE GOVERNMENT OF THE PROVINCE OF BRITISH COLUMBIA \n\nas represented by \n\nB.C. PUBLIC SERVICE AGENCY (PSA) \n\nand \n\nTHE B.C. GENERAL EMPLOYEES' UNION (BCGEU) \n\nRE: Part-time As-and-when Regular Employees – Service BC, Regional Operations \n\nThe purpose of this agreement is to address the terms and conditions of employment for regular part-time as-and-when employees, hereinafter referred to as RPTAW employees.\n\n1. The terms and conditions of employment will includ"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_13_Auxiliary_Part_Time_Seasonal_and_Project_Employees.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_13_Auxiliary_Part_Time_Seasonal_and_Project_Employees.docx",
+          "loc": {
+            "lines": {
+              "from": 347,
+              "to": 397
+            }
+          }
+        },
+        "content_preview": "LTD \n\nSuperannuation \n\nCanada Pension Plan* \n\nEmployment Insurance* \n\nWork Safe BC* \n\nGroup Life* \n\n*Is only prorated to the extent that the benefit is based on the employee’s part-time salary. \n\nNot Prorated: \n\nBasic Medical Insurance \n\nExtended Health Care Plan \n\nDental Plan \n\nAir Travel Insurance \n\n\n\nOthers: \n\nOvertime (paid in accordance with Clause 16.10 of the Main Agreement) \n\nAnnual Increment (eligibility based on completion of 1827 hours since last increment) \n\n*MOA To remain outside th"
+      }
+    ],
+    "is_trick_question": false,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": "N/A",
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [],
+    "error": ""
+  },
+  {
+    "id": "T‑01",
+    "user_query": "Can a Vancouver city bus driver use BC ESA to file a missing‑pay complaint?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Transit (Coast Mountain Bus Company) is federally regulated.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 29.49,
+    "answer": "No, the provided context does not include information about filing missing-pay complaints under the BC Employment Standards Act (ESA).\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 27
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Labour Board and Basic Freedoms\n\nTopic coverage: Employee and employer freedoms; Canada Industrial Relations Board organization, powers, procedure, review, and enforcement.\n\nDIVISION IBasic Freedoms\n\nEmployee freedoms\n\n8 (1) Every employee is free to join the trade union of their choice and to participate in its lawful activities.\n\nEmployer freedoms\n\n(2) Every employer is free to join the employers’ organization of their choice and to participate in its lawful activities.\n\nD"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Wages, Expenses, Employee Protections and Genetic Testing\n\nTopic coverage: Garnishment protection, work-related expenses, long-term disability plans, reprisal complaints, payment of wages, and genetic-testing protections.\n\nDIVISION XIIGarnishment\n\nProhibition\n\n238 No employer shall dismiss, suspend, lay off, demote or discipline an employee on the ground that garnishment proceedings may be or have been taken with respect to the employee.\n\nDIVISION XII.1Reimbursement of Work-"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑02",
+    "user_query": "Can a WestJet pilot use BC ESA rules for overtime?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Aviation is federal; BC ESA does not apply.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 32.1,
+    "answer": "No, generally, a WestJet pilot employed by a federally regulated airline would be governed by the Canada Labour Code rather than the BC Employment Standards Act (ESA). The Canada Labour Code applies to all federally regulated workers, including pilots at airlines like WestJet.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 19
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Hours of Work, Overtime and Flexible Work\n\nTopic coverage: Part III interpretation and application; standard and maximum hours, overtime, scheduling, modified schedules, permits, emergencies, and flexible-work requests.\n\nPART IIIStandard Hours, Wages, Vacations and Holidays\n\nInterpretation\n\nDefinitions\n\n166 In this Part,\n\ncollective agreement means an agreement in writing containing terms or conditions of employment of employees, including provisions with reference to rates "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+          "loc": {
+            "lines": {
+              "from": 101,
+              "to": 111
+            }
+          }
+        },
+        "content_preview": "Employees paid by salary\n\nIf an employee is paid by a weekly, monthly or yearly salary, overtime is payable to that employee if they work over 8 hours in a day or over 40 hours in a week. The regular wage should be calculated as set out in section 1 of the Act. For any hours worked over 8 in a day or over 40 in a week, overtime is owed at one and a half times the regular wage. For any hours worked over 12 in a day, overtime is owed at two times the regular wage. An employee cannot agree (even wi"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": false,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑03",
+    "user_query": "Can a Rogers employee in Burnaby claim BC sick‑leave rights?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Telecom is federal; BC ESA does not apply.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 36.88,
+    "answer": "Yes, Rogers employees in Burnaby can claim BC sick-leave rights under the BC Employment Standards Act. Employees are entitled to up to 5 days of paid sick leave per year if they need to stay home due to illness or injury. They must have worked with their employer for at least 90 days to be eligible.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_paid_sick_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 37
+            }
+          }
+        },
+        "content_preview": "You need to pay your employees their regular wages for these days. They do not have to be taken consecutively.\n\nEmployees are also entitled to 3 days of unpaid sick leave.\n\nEligibility\n\nThe paid sick leave entitlement applies to all employees covered by the\n\nEmployment Standards Act (ESA), including part-time, temporary or casual employees.\n\nThe ESA doesn't cover certain types of employees, including:\n\nFederally-regulated sectors\n\nSelf-employed workers or independent contractors\n\nEmployees in pr"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 137,
+              "to": 159
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nUnable to obtain the necessities of life because of illness, disability or another reason\n\nUnder the daily care and control of the employee\n\nAn employee required to take leave to receive a COVID-19 vaccine on or after April 19, 2021, is entitled to paid leave under section 52.13 Leave for COVID-19 vaccination.\n\nSubsection (3)\n\nThe employee is entitled to remain on leave as long as the circumstances referred to in subsection (2) continue to apply.\n\nSubsection (4)\n\nIf the employer asks"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 0,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": false,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "expected_jurisdiction_not_in_sources",
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑04",
+    "user_query": "Can a Vancouver restaurant worker use the Canada Labour Code for vacation pay?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Restaurants are provincial.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 28.29,
+    "answer": "I cannot find a verified parameter for this specific jurisdiction layout within the official guides.\n\nSource: I cannot find a verified parameter for this specific jurisdiction layout within the official guides.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_vacation_pay.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Vacation, General Holidays and Multi-employer Employment\n\nTopic coverage: Annual vacations, vacation pay, general holidays, holiday pay, and multi-employer employment.\n\nDIVISION IVAnnual Vacations\n\nDefinitions\n\n183 In this Division,\n\nvacation pay means the amount an employee is entitled to under section 184.01; (indemnité de congé annuel)\n\nyear of employment means continuous employment of an employee by one employer\n\n(a) for a period of twelve consecutive months beginning wi"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_vacation_pay.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_vacation_pay.docx",
+          "loc": {
+            "lines": {
+              "from": 57,
+              "to": 65
+            }
+          }
+        },
+        "content_preview": "Vacation Pay in Excess of Minimum Standards\n\nThe Director will enforce a vacation pay entitlement established under an employment contract if it is greater than the minimum standard set out in the Act. This is because the wording of section 58(1) refers to “at least” 4% or 6%.\n\nExample\n\nWhen an employee started work at the hardware store in June, they were told that four weeks' vacation and 8% vacation pay would be given during their first year. The employee requests four weeks' vacation in Nove"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑05",
+    "user_query": "Does a CN Rail worker qualify for BC overtime rules?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Interprovincial rail is federal.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 29.37,
+    "answer": "I cannot find a verified parameter for this specific jurisdiction layout within the official guides.\n\nSource: I cannot find a verified parameter for this specific jurisdiction layout within the official guides.",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_overtime_employees_under_averaging_agreement.docx",
+          "loc": {
+            "lines": {
+              "from": 101,
+              "to": 111
+            }
+          }
+        },
+        "content_preview": "Employees paid by salary\n\nIf an employee is paid by a weekly, monthly or yearly salary, overtime is payable to that employee if they work over 8 hours in a day or over 40 hours in a week. The regular wage should be calculated as set out in section 1 of the Act. For any hours worked over 8 in a day or over 40 in a week, overtime is owed at one and a half times the regular wage. For any hours worked over 12 in a day, overtime is owed at two times the regular wage. An employee cannot agree (even wi"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_11_Hours_of_Work_Overtime_and_Flexible_Work.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 19
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Hours of Work, Overtime and Flexible Work\n\nTopic coverage: Part III interpretation and application; standard and maximum hours, overtime, scheduling, modified schedules, permits, emergencies, and flexible-work requests.\n\nPART IIIStandard Hours, Wages, Vacations and Holidays\n\nInterpretation\n\nDefinitions\n\n166 In this Part,\n\ncollective agreement means an agreement in writing containing terms or conditions of employment of employees, including provisions with reference to rates "
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑06",
+    "user_query": "Can a bank teller file a complaint with the BC Employment Standards Branch?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Banks are federally regulated.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 32.38,
+    "answer": "No, complaints regarding actions taken by an employer against employees in contravention of section 147 must be made to the Board of the alleged contravention and not to the BC Employment Standards Branch. The correct jurisdiction for such complaints is the Canada Labour Code.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_how_wages_are_paid.docx",
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_how_wages_are_paid.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_how_wages_are_paid.docx",
+          "loc": {
+            "lines": {
+              "from": 25,
+              "to": 31
+            }
+          }
+        },
+        "content_preview": "An employer may directly deposit wages to an employee's account if the employee provides the employer with written authorization to do so, or if the collective agreement provides for direct deposit.\n\nFarm labour contractors are excluded from this section of the Act. Section 40.2 of the Employment Standards Regulation requires farm labour contractors to pay wages in Canadian currency by way of direct deposit to the credit of a farm worker's account in a savings institution.\n\nEmployees covered by "
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_16_Wages_Expenses_Employee_Protections_and_Genetic_Testing.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Wages, Expenses, Employee Protections and Genetic Testing\n\nTopic coverage: Garnishment protection, work-related expenses, long-term disability plans, reprisal complaints, payment of wages, and genetic-testing protections.\n\nDIVISION XIIGarnishment\n\nProhibition\n\n238 No employer shall dismiss, suspend, lay off, demote or discipline an employee on the ground that garnishment proceedings may be or have been taken with respect to the employee.\n\nDIVISION XII.1Reimbursement of Work-"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "BC Provincial",
+      "Federal"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑07",
+    "user_query": "Can a Vancouver tech worker use federal maternity leave rules?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Tech companies are provincial unless federally regulated.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 34.74,
+    "answer": "Generally, no.\n\nThe retrieved context is specific to BC Provincial employment standards and does not cover federally regulated employers like banks or telecommunications companies. The policy interpretation provided in the context pertains to maternity leave under the BC Employment Standards Act rather than federal labor laws.\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_maternity_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_14_Medical_Personal_Family_and_Other_Leaves.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 13
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Medical, Personal, Family and Other Leaves\n\nTopic coverage: Maternity-related reassignment and leave, maternity/parental and other protected leaves, bereavement, medical leave, work-related illness and injury, and reserve-force leave.\n\nDIVISION VIIMaternity-related Reassignment and Leave and Other Leaves\n\nMaternity-related Reassignment and Leave\n\nReassignment and job modification\n\n204 (1) An employee who is pregnant or nursing may, during the period from the beginning of the"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_maternity_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_guide_maternity_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 25,
+              "to": 37
+            }
+          }
+        },
+        "content_preview": "be given in writing to the employer,\n\nif the request is made during the pregnancy, be given to the employer at least 4 weeks before the day the employee proposes to begin leave, and\n\nif required by the employer, be accompanied by a medical practitioner's or nursepractitioner's certificate stating the expected or actual birth date or the date the pregnancy terminated or stating the reasons for requesting additional leave under subsection (3).\n\nIf an employee on leave under subsection (1) or (1.1)"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑08",
+    "user_query": "Does a Burnaby office worker get 10 federal sick days?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "BC ESA applies; federal sick‑day rules do not.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 32.29,
+    "answer": "No, generally, a Burnaby office worker does not get 10 federal sick days. According to the retrieved context, B.C. workers are eligible for up to 5 paid sick days per year under the Employment Standards Act.\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 31,
+              "to": 51
+            }
+          }
+        },
+        "content_preview": "an order of the provincial health officer,\n\nan order made under the Quarantine Act (Canada),\n\nguidelines of the British Columbia Centre for Disease Control, or\n\nguidelines of the Public Health Agency of Canada;\n\nthe employer, due to the employer's concern about the employee'sexposure to others, has directed the employee not to work;\n\nthe employee is providing care to an eligible person, includingbecause of the closure of a school or daycare or similar facility;\n\nthe employee is outside the provi"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_COVID19_related_leave.docx",
+          "loc": {
+            "lines": {
+              "from": 85,
+              "to": 105
+            }
+          }
+        },
+        "content_preview": "Regulation\n\nIndividuals who require care and are considered close relatives (whether or not they are related by blood, adoption, marriage or common law partnership)\n\nSubsection (2)\n\nThis subsection lists the various circumstances in which an employee is entitled to take a leave from work.\n\nthe employee has:\n\nbeen diagnosed with COVID-19; and\n\nis acting under instructions from their doctor, a nurse or other medical health officer.\n\nthe employee is in quarantine or self-isolation in accordance wit"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑09",
+    "user_query": "Can a restaurant server use federal holiday pay rules?",
+    "correct_jurisdiction": "BC Provincial",
+    "expected_rule": "Restaurants fall under BC ESA.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 26.99,
+    "answer": "I cannot find a verified parameter for this specific jurisdiction layout within the official guides.\n\nSource: Canada Labour Code",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_entitlement_to_annual_vacation .docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_13_Vacation_General_Holidays_and_Multi_Employer_Employment.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Vacation, General Holidays and Multi-employer Employment\n\nTopic coverage: Annual vacations, vacation pay, general holidays, holiday pay, and multi-employer employment.\n\nDIVISION IVAnnual Vacations\n\nDefinitions\n\n183 In this Division,\n\nvacation pay means the amount an employee is entitled to under section 184.01; (indemnité de congé annuel)\n\nyear of employment means continuous employment of an employee by one employer\n\n(a) for a period of twelve consecutive months beginning wi"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_entitlement_to_annual_vacation .docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Provincial\\bc_employment_standards_entitlement_to_annual_vacation .docx",
+          "loc": {
+            "lines": {
+              "from": 69,
+              "to": 85
+            }
+          }
+        },
+        "content_preview": "However, employees may request vacations in periods of less than a week. The responsibility is on the employer to show that a shorter period taken was at the employee’s request.\n\nScheduling Vacation\n\nSection 67(1) prohibits an employer from scheduling an employee’s vacation to coincide with notice of termination of employment.\n\nSection 59 of the Act prohibits an employer from granting time off as a bonus or sick time and later reducing an employee’s vacation entitlement as a result of the previo"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  },
+  {
+    "id": "T‑10",
+    "user_query": "Can a Vancouver airport baggage handler use BC ESA?",
+    "correct_jurisdiction": "Federal",
+    "expected_rule": "Airport operations are federally regulated.",
+    "status": "success",
+    "http_status": 200,
+    "response_seconds": 26.8,
+    "answer": "Generally, yes, a Vancouver airport baggage handler can use the BC Employment Standards Act (ESA) to address issues related to wages, hours of work, and other employment standards applicable in British Columbia.\n\nSource: BC Employment Standards Act",
+    "sources": [
+      "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+      "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_02_Human_Rights_Harassment_and_Bullying.docx"
+    ],
+    "source_details": [
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\Federal\\Federal_02_Labour_Board_and_Basic_Freedoms.docx",
+          "loc": {
+            "lines": {
+              "from": 1,
+              "to": 27
+            }
+          }
+        },
+        "content_preview": "Canada Labour Code — Labour Board and Basic Freedoms\n\nTopic coverage: Employee and employer freedoms; Canada Industrial Relations Board organization, powers, procedure, review, and enforcement.\n\nDIVISION IBasic Freedoms\n\nEmployee freedoms\n\n8 (1) Every employee is free to join the trade union of their choice and to participate in its lawful activities.\n\nEmployer freedoms\n\n(2) Every employer is free to join the employers’ organization of their choice and to participate in its lawful activities.\n\nD"
+      },
+      {
+        "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_02_Human_Rights_Harassment_and_Bullying.docx",
+        "metadata": {
+          "source": "D:\\AI_Project\\data_corpus_final\\BC_Union_Benefits\\BC_Union_02_Human_Rights_Harassment_and_Bullying.docx",
+          "loc": {
+            "lines": {
+              "from": 17,
+              "to": 21
+            }
+          }
+        },
+        "content_preview": "The government of British Columbia, in cooperation with the Union, will promote a work environment that is free from discrimination where all employees are treated with respect and dignity. \n\nDiscrimination relates to any of the prohibited grounds contained in the BC Human Rights Code. Prohibited conduct may be verbal, non-verbal, physical, deliberate or unintended, unsolicited or unwelcome, as determined by a reasonable person. It may be one incident or a series of incidents depending on the co"
+      }
+    ],
+    "is_trick_question": true,
+    "source_groups": [
+      "Federal",
+      "BC Provincial"
+    ],
+    "exact_refusal": false,
+    "retrieval_score_suggestion": 1,
+    "refusal_score_suggestion": 0,
+    "contains_source_label": true,
+    "contains_internal_or_placeholder_citation": false,
+    "warning_flags": [
+      "required_refusal_not_triggered"
+    ],
+    "error": ""
+  }
+]
